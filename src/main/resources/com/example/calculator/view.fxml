@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane alignment="BASELINE_CENTER" hgap="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="590.0" prefWidth="377.0" style="-fx-background-color: #595959;" vgap="10.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.calculator.Controller">
+   <columnConstraints>
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="60.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="60.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="60.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="60.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="60.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" prefHeight="60.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="-Infinity" minHeight="60.0" prefHeight="60.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" prefHeight="60.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" prefHeight="60.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" prefHeight="60.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" prefHeight="60.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" prefHeight="60.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="-Infinity" minHeight="60.0" prefHeight="60.0" vgrow="SOMETIMES" />
+   </rowConstraints>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+   <cursor>
+      <Cursor fx:constant="DEFAULT" />
+   </cursor>
+   <TextField fx:id="displayTextField" editable="false" prefHeight="50.0" style="-fx-background-color: #383838; -fx-border-color: #999797; -fx-text-fill: #FFFFFF; -fx-border-radius: 10; -fx-background-radius: 10;" GridPane.columnSpan="5">
+      <font>
+         <Font size="18.0" />
+      </font>
+      <cursor>
+         <Cursor fx:constant="DEFAULT" />
+      </cursor></TextField>
+   <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#SevenBtn" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #383838; -fx-border-color: #999797; -fx-text-fill: #FFFFFF; -fx-background-radius: 10; -fx-border-radius: 10;" text="7" GridPane.columnIndex="1" GridPane.rowIndex="3">
+      <font>
+         <Font size="18.0" />
+      </font>
+   </Button>
+   <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#EightBtn" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #383838; -fx-border-color: #999797; -fx-text-fill: #FFFFFF; -fx-background-radius: 10; -fx-border-radius: 10;" text="8" GridPane.columnIndex="2" GridPane.rowIndex="3">
+      <font>
+         <Font size="18.0" />
+      </font>
+   </Button>
+   <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#NineBtn" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #383838; -fx-border-color: #999797; -fx-text-fill: #FFFFFF; -fx-background-radius: 10; -fx-border-radius: 10;" text="9" GridPane.columnIndex="3" GridPane.rowIndex="3">
+      <font>
+         <Font size="18.0" />
+      </font>
+   </Button>
+   <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#PlusBtn" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #383838; -fx-border-color: #999797; -fx-text-fill: #FFFFFF; -fx-background-radius: 10; -fx-border-radius: 10;" text="+" GridPane.columnIndex="4" GridPane.rowIndex="3">
+      <font>
+         <Font size="18.0" />
+      </font>
+   </Button>
+   <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#FournBtn" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #383838; -fx-border-color: #999797; -fx-text-fill: #FFFFFF; -fx-background-radius: 10; -fx-border-radius: 10;" text="4" GridPane.columnIndex="1" GridPane.rowIndex="4">
+      <font>
+         <Font size="18.0" />
+      </font>
+   </Button>
+   <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#FiveBtn" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #383838; -fx-border-color: #999797; -fx-text-fill: #FFFFFF; -fx-background-radius: 10; -fx-border-radius: 10;" text="5" GridPane.columnIndex="2" GridPane.rowIndex="4">
+      <font>
+         <Font size="18.0" />
+      </font>
+   </Button>
+   <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#SixBtn" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #383838; -fx-border-color: #999797; -fx-text-fill: #FFFFFF; -fx-background-radius: 10; -fx-border-radius: 10;" text="6" GridPane.columnIndex="3" GridPane.rowIndex="4">
+      <font>
+         <Font size="18.0" />
+      </font>
+   </Button>
+   <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#MinusBtn" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #383838; -fx-border-color: #999797; -fx-text-fill: #FFFFFF; -fx-background-radius: 10; -fx-border-radius: 10;" text="-" GridPane.columnIndex="4" GridPane.rowIndex="4">
+      <font>
+         <Font size="18.0" />
+      </font>
+   </Button>
+   <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#OneBtn" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #383838; -fx-border-color: #999797; -fx-text-fill: #FFFFFF; -fx-background-radius: 10; -fx-border-radius: 10;" text="1" GridPane.columnIndex="1" GridPane.rowIndex="5">
+      <font>
+         <Font size="18.0" />
+      </font>
+   </Button>
+   <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#TwoBtn" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #383838; -fx-border-color: #999797; -fx-text-fill: #FFFFFF; -fx-background-radius: 10; -fx-border-radius: 10;" text="2" GridPane.columnIndex="2" GridPane.rowIndex="5">
+      <font>
+         <Font size="18.0" />
+      </font>
+   </Button>
+   <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#ThreeBtn" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #383838; -fx-border-color: #999797; -fx-text-fill: #FFFFFF; -fx-background-radius: 10; -fx-border-radius: 10;" text="3" GridPane.columnIndex="3" GridPane.rowIndex="5">
+      <font>
+         <Font size="18.0" />
+      </font>
+   </Button>
+   <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#MultipleBtn" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #383838; -fx-border-color: #999797; -fx-text-fill: #FFFFFF; -fx-background-radius: 10; -fx-border-radius: 10;" text="*" GridPane.columnIndex="4" GridPane.rowIndex="5">
+      <font>
+         <Font size="18.0" />
+      </font>
+   </Button>
+   <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#DotBtn" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #383838; -fx-border-color: #999797; -fx-text-fill: #FFFFFF; -fx-background-radius: 10; -fx-border-radius: 10;" text="." GridPane.columnIndex="1" GridPane.rowIndex="6">
+      <font>
+         <Font size="24.0" />
+      </font>
+   </Button>
+   <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#ZeroBtn" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #383838; -fx-border-color: #999797; -fx-text-fill: #FFFFFF; -fx-background-radius: 10; -fx-border-radius: 10;" text="0" GridPane.columnIndex="2" GridPane.rowIndex="6">
+      <font>
+         <Font size="18.0" />
+      </font>
+   </Button>
+   <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#resultButtonClick" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #d47f00; -fx-border-color: #999797; -fx-text-fill: #000000; -fx-background-radius: 10; -fx-border-radius: 10;" text="=" GridPane.columnIndex="3" GridPane.rowIndex="6">
+      <font>
+         <Font size="18.0" />
+      </font>
+   </Button>
+   <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#SubdivisionBtn" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #383838; -fx-border-color: #999797; -fx-text-fill: #FFFFFF; -fx-background-radius: 10; -fx-border-radius: 10;" text="/" GridPane.columnIndex="4" GridPane.rowIndex="6">
+      <font>
+         <Font size="18.0" />
+      </font>
+   </Button>
+   <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#ACBtn" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #383838; -fx-border-color: #999797; -fx-text-fill: #FFFFFF; -fx-background-radius: 10; -fx-border-radius: 10;" text="AC" GridPane.columnIndex="1" GridPane.rowIndex="2">
+      <font>
+         <Font size="18.0" />
+      </font>
+   </Button>
+   <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#DeleteBtn" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #383838; -fx-border-color: #999797; -fx-text-fill: #FFFFFF; -fx-background-radius: 10; -fx-border-radius: 10;" text="⌫" GridPane.columnIndex="2" GridPane.rowIndex="2">
+      <font>
+         <Font size="18.0" />
+      </font>
+   </Button>
+   <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#SquareBtn" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #383838; -fx-border-color: #999797; -fx-text-fill: #FFFFFF; -fx-background-radius: 10; -fx-border-radius: 10;" text="Xª" GridPane.columnIndex="3" GridPane.rowIndex="2">
+      <font>
+         <Font size="18.0" />
+      </font>
+   </Button>
+   <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#SquareRootBtn" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #383838; -fx-border-color: #999797; -fx-text-fill: #FFFFFF; -fx-background-radius: 10; -fx-border-radius: 10;" text="√χ" GridPane.columnIndex="4" GridPane.rowIndex="2">
+      <font>
+         <Font size="18.0" />
+      </font>
+   </Button>
+   <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#FactBtn" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #383838; -fx-border-color: #999797; -fx-text-fill: #FFFFFF; -fx-background-radius: 10; -fx-border-radius: 10;" text="X!" GridPane.rowIndex="2">
+      <font>
+         <Font size="18.0" />
+      </font>
+   </Button>
+   <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#SinBtn" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #383838; -fx-border-color: #999797; -fx-text-fill: #FFFFFF; -fx-background-radius: 10; -fx-border-radius: 10;" text="sin" GridPane.rowIndex="3">
+      <font>
+         <Font size="18.0" />
+      </font>
+   </Button>
+   <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#CosBtn" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #383838; -fx-border-color: #999797; -fx-text-fill: #FFFFFF; -fx-background-radius: 10; -fx-border-radius: 10;" text="cos" GridPane.rowIndex="4">
+      <font>
+         <Font size="18.0" />
+      </font>
+   </Button>
+   <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#TanBtn" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #383838; -fx-border-color: #999797; -fx-text-fill: #FFFFFF; -fx-background-radius: 10; -fx-border-radius: 10;" text="tan" GridPane.rowIndex="5">
+      <font>
+         <Font size="18.0" />
+      </font>
+   </Button>
+   <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#PiBtn" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #383838; -fx-border-color: #999797; -fx-text-fill: #FFFFFF; -fx-background-radius: 10; -fx-border-radius: 10;" text="π" GridPane.rowIndex="6">
+      <font>
+         <Font size="24.0" />
+      </font>
+   </Button>
+   <RadioButton mnemonicParsing="false" onAction="#DegRad" text="DEG" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="1">
+      <toggleGroup>
+         <ToggleGroup fx:id="angle" />
+      </toggleGroup>
+      <font>
+         <Font size="14.0" />
+      </font>
+   </RadioButton>
+   <RadioButton mnemonicParsing="false" onAction="#RadRad" selected="true" text="RAD" textFill="WHITE" toggleGroup="$angle" GridPane.columnIndex="3" GridPane.rowIndex="1">
+      <font>
+         <Font size="14.0" />
+      </font>
+   </RadioButton>
+   <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#LgBtn" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #383838; -fx-border-color: #999797; -fx-text-fill: #FFFFFF; -fx-background-radius: 10; -fx-border-radius: 10;" text="Lg" GridPane.rowIndex="1" />
+   <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#LnBtn" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #383838; -fx-border-color: #999797; -fx-text-fill: #FFFFFF; -fx-background-radius: 10; -fx-border-radius: 10;" text="Ln" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+   <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#MBtn" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #383838; -fx-border-color: #999797; -fx-text-fill: #FFFFFF; -fx-background-radius: 10; -fx-border-radius: 10;" text="M" GridPane.rowIndex="7">
+      <font>
+         <Font size="18.0" />
+      </font>
+   </Button>
+   <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#MAddBtn" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #383838; -fx-border-color: #999797; -fx-text-fill: #FFFFFF; -fx-background-radius: 10; -fx-border-radius: 10;" text="M+" GridPane.columnIndex="1" GridPane.rowIndex="7">
+      <font>
+         <Font size="18.0" />
+      </font>
+   </Button>
+   <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#MSubBtn" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #383838; -fx-border-color: #999797; -fx-text-fill: #FFFFFF; -fx-background-radius: 10; -fx-border-radius: 10;" text="M-" GridPane.columnIndex="2" GridPane.rowIndex="7">
+      <font>
+         <Font size="18.0" />
+      </font>
+   </Button>
+   <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#CLRBtn" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #383838; -fx-border-color: #999797; -fx-text-fill: #FFFFFF; -fx-background-radius: 10; -fx-border-radius: 10;" text="CLR" GridPane.columnIndex="3" GridPane.rowIndex="7">
+      <font>
+         <Font size="18.0" />
+      </font>
+   </Button>
+   <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#ANS" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #383838; -fx-border-color: #999797; -fx-text-fill: #FFFFFF; -fx-background-radius: 10; -fx-border-radius: 10;" text="ANS" GridPane.columnIndex="4" GridPane.rowIndex="7">
+      <font>
+         <Font size="17.5" />
+      </font>
+   </Button>
+</GridPane>
