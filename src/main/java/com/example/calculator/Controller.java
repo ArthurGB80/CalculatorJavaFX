@@ -2,9 +2,11 @@ package com.example.calculator;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.TextField;
+import javafx.scene.control.ToggleGroup;
 
 public class Controller {
 
+    public ToggleGroup angle;
     boolean radio_val = false;
 
     protected String dispText = "";
